@@ -87,4 +87,33 @@
             
             <RadioButton
                 android:id="@+id/item_run"
-                android:layout_width
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bieg"/>
+            
+            <RadioButton
+                android:id="@+id/item_bike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rower"/>
+            
+            <RadioButton
+                android:id="@+id/item_swim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pływanie"/>
+        </RadioGroup>
+        
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj aktywność"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/item_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>
